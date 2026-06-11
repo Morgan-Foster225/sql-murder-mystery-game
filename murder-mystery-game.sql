@@ -21,7 +21,7 @@ SELECT name
   FROM sqlite_master
  where name = 'crime_scene_report'
 
- --1. Start with the crime scene report
+ -- Start with the crime scene report
 
 -- We know:
 
@@ -41,9 +41,9 @@ WHERE type = 'murder'
 -- Witnesses exist:
 -- One lives at the last house on Northwestern Dr
 -- One is named Annabel and lives somewhere in the city
--- 2. Identify Witness #1 (Northwestern Dr)
+--  Identify Witness #1 (Northwestern Dr)
 
--- We need the person living at the highest address on that street.
+-- need the person living at the highest address on that street.
 
 SELECT *
 FROM person
