@@ -22,7 +22,7 @@ Clues:
 
 
 Find matching suspects
-sqlSELECT id, name FROM suspects
+SELECT id, name FROM suspects
 WHERE bandana_color = 'red' AND accessory = 'gold watch';
 
 Returns: Tony Ramirez, Mickey Rivera, Rico Delgado
